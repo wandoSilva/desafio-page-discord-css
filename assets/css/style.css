@@ -136,8 +136,6 @@ button:nth-child(2){
 .section2 .div-flex {
   width: 351px;
   height: 212px;
-
-
 }
 .section3 {
   align-items: center;
@@ -146,13 +144,10 @@ button:nth-child(2){
 .section3 .div-flex {
   width: 351px;
   height: 234px;
- 
 }
 .section-3 h2 {
   width: 329px;
   height: 108px;
-  /* top: 107px;
-  left: 776px; */
 }
 .section3 p {
   text-align: left;
@@ -206,10 +201,8 @@ button:nth-child(2){
   top: 933px; 
   height: 448px;
   width: 1280px;
-  background: rgb(213, 210, 210);
-  /* border: 1px dotted black; */
-  background: rgba(246, 246, 246, 1);
-  /* top: 100px; */
+  /* background: rgb(213, 210, 210);
+  background: rgba(246, 246, 246, 1); */
 }
 .section-3 {
   top: 1421px;
@@ -223,7 +216,6 @@ button:nth-child(2){
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* justify-content: space-between; */
   flex-direction: column;
   background: rgba(246, 246, 246, 1);
   width: 1280px;
@@ -240,4 +232,194 @@ footer img {
   position: absolute;
   top: 35px;
   left: 525px;
+}
+
+@media screen and (max-width: 430px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  header {
+    position: relative;
+    width: 430px;
+    height: 505px;
+    background: url("../icons/Header.png");
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: 73%;
+}
+
+  .header-content-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 428px;
+    height: 366px;
+    top: 69px;
+    padding-right: 24px;
+    padding-left: 24px;
+    gap: 24px;
+
+  }
+  .header-content-banner h2 {
+    text-align:left ;
+    top: 0;
+    width: 278px;
+    height: 64px;
+    font-size: 32px;
+    
+  }
+  .header-content-banner > h2 + p {
+    text-align:left ;
+    width: 381px;
+    height: 132px;
+
+  }
+  .container-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 381px;
+    height: 122px;
+    gap: 16px;
+
+  }
+
+  div.container-buttons button {
+    height: 54px;
+    cursor: pointer;
+    border-radius: 28px;
+    width: 381px;
+
+  }
+
+  .section-1, 
+  .section-2, 
+  .section-3, 
+  .section-4, 
+  footer, header{
+    position: relative;
+    width: 428px;
+    border: 1px dotted black;
+    
+}
+  .section-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section.section-1 {
+    position: relative;
+    width: 428px;
+    height: 573px;
+    border: 1px dotted black;
+  }
+    
+.section1 {
+  position: absolute;
+  display: flex;
+  width: 428px;
+  height: 573px;
+  top: 0;
+  left: 0;
+  justify-content: space-around;
+}
+.section1 .div-flex {
+  display: flex;
+}
+
+.section-flex section1 img {
+  position: absolute;
+  display: flex;
+  width: 379px;
+  height: 252px;
+  float: left;
+}
+.div-flex > h2 {
+  width: 370px;
+  height: 99px;
+  font-size: 24px;
+}
+.section1 .div-flex h2 + p {
+  
+  width: 378px;
+  height: 88px;
+}
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section2 img {
+  top: 0;
+}
+.section-flex img {
+  width: 379px;
+  height: 252px;
+}
+.section-2 {
+  background: rgba(246, 246, 246, 1);
+  height: 507px;
+  width: 428px;
+}
+.section2 {
+  display: flex;
+  margin: auto;
+}
+.section-flex {
+  display: flex;
+}
+h2, p, img, .section-flex {
+  border: 1px dotted black;
+}
+.section-2, .section-3, .section-4, footer {
+  top: 0;
+
+}
+.section-4, .section4 {
+  width: 428px;
+  height: 560px;
+  background: rgba(246, 246, 246, 1);
+
+}
+.section4 h2 {
+  width: 376px;
+  height: 64px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  text-align: left;
+}
+section.section-4 p {
+  width: 378px;
+  height: 110px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.section4 img {
+  width: 379px;
+  height: 252px;
+}
+footer {
+  width: 429px;
+  height: 140px;
+
+}
+footer img {
+  width: 162px;
+  height: 45px;
+  top: 44px;
+  left: 133px;
+}
+
 }

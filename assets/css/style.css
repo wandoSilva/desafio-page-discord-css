@@ -1,35 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap');
 
-/* .luckiest-guy-regular {
-  font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
-  font-style: normal;
-};
-.open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}; */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px dotted black; */
 }
 
 header {
-  /* align-content: center; */
   display: flex;
   height: 459px;
   background: url("../icons/Header.png");
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* margin: auto; */
 }
 .section-1, .section-2, .section-3, .section-4, footer, header{
   width: 1280px;
@@ -201,8 +185,6 @@ button:nth-child(2){
   top: 933px; 
   height: 448px;
   width: 1280px;
-  /* background: rgb(213, 210, 210);
-  background: rgba(246, 246, 246, 1); */
 }
 .section-3 {
   top: 1421px;
@@ -306,7 +288,6 @@ footer img {
   footer, header{
     position: relative;
     width: 428px;
-    border: 1px dotted black;
     
 }
   .section-flex {
@@ -319,7 +300,6 @@ footer img {
     position: relative;
     width: 428px;
     height: 573px;
-    border: 1px dotted black;
   }
     
 .section1 {
@@ -377,12 +357,9 @@ footer img {
 .section-flex {
   display: flex;
 }
-h2, p, img, .section-flex {
-  border: 1px dotted black;
-}
+
 .section-2, .section-3, .section-4, footer {
   top: 0;
-
 }
 .section-4, .section4 {
   width: 428px;
